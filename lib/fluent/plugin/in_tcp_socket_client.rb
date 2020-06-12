@@ -7,7 +7,7 @@ class TCPSocketClientInput < Input
   config_param :server, :string, :default => 'localhost'
   config_param :port, :integer, :default => 3000
   config_param :tag, :string, :default => 'tcp_socket'
-  config_param :emit_messages, :integer, :default => 1000
+  config_param :emit_messages, :integer, :default => 10
   config_param :interval, :time, :default => 60
   config_param :add_prefix, :string, :default => nil
   config_param :add_suffix, :string, :default => nil
