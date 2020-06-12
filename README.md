@@ -60,6 +60,12 @@ Format of the message (json|text|ltsv)
 ```
 format json
 ```
+### emit_messages
+#### Default: 10
+Batch size for emit messages.
+```
+emit_messages 10
+```
 ### Example
 ```
 <system>
